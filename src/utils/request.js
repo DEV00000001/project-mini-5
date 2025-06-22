@@ -1,4 +1,4 @@
-const API_DOMAIN = "http://localhost:3000/";
+const API_DOMAIN = "https://json-server-project-mini-5.onrender.com/";
 
 export const get = async (path) => {
     const response = await fetch(API_DOMAIN + path);
