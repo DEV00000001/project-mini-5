@@ -1,0 +1,33 @@
+.answer__true {
+  color: rgb(42, 192, 42);
+  font-weight: 700;
+}
+.answer__false {
+  color: red;
+  font-weight: 600;
+}
+.Quiz-Summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: orange;
+  width: 200px;
+  flex-wrap: wrap;
+
+  &__correctAnswers {
+    color: green;
+
+  }
+  &__incorrectAnswers {
+    color: red;
+
+  }
+  &__totalQuestions {
+    color: yellow;
+  }
+  &__correctRate {
+    color: blue;
+  }
+}

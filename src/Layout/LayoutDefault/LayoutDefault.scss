@@ -1,0 +1,73 @@
+.layout-default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+
+        align-items: center;
+    }
+    &__logo {
+        padding: 5px 10px ;
+        margin: 10px;
+    }
+    
+    &__body {
+        padding: 20px;
+        min-height: 700px; 
+        position: relative;
+    }
+    &__footer {
+        background-color: orangered;
+        padding: 10px;
+        text-align: center;
+
+    }
+    &__cart {
+        padding: 10px 20px;
+    }
+    &__main {
+        display: flex;
+    }
+    
+}
+.menu {
+    display: flex;
+    &__login {
+        margin: 10px;
+        padding: 5px 10px;
+
+    }
+    &__register {
+        margin: 10px;
+        background-color: orangered;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+    &__button {
+        display: flex;
+
+    }
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 0 10px;
+       
+    }
+    &__logout {
+        cursor: pointer;
+        color: white;
+        font-weight: 700;
+        :hover {
+            background-color: orangered;
+        }
+
+    }
+
+}

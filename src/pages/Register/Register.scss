@@ -1,0 +1,25 @@
+.form-register {
+    width: 500px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h2 {
+        padding: 0;
+        margin: 0 0 10px;
+    }
+    input {
+        margin: 5px 0;
+        width: 400px;
+        padding: 5px 10px;
+    }
+    input.form-register__button {
+        width: 70px;
+        padding: 5px 10px;
+    }
+
+}
