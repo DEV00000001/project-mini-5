@@ -1,4 +1,4 @@
-# 🧑‍💻 Project 4 - Online Quiz Website (React + Redux + SCSS)
+# 🧑‍💻 Project 5 - Online Quiz Website (React + Redux + SCSS)
 
 [🔗 Live Demo Here](https://project-mini-5-three.vercel.app/)
 
